@@ -26,6 +26,7 @@ public class menuASMR extends AppCompatActivity {
     }
 
     public void openActivityASMR() {
+        ((MyApplication) this.getApplication()).setUrl("https://www.youtube.com/watch?v=O830yXVvxiM&list=PL6OBhoc6fvu0PFlEtJzlS2XJV9GQO7iKr&ab_channel=pokiASMR");
         Intent intent = new Intent(this, ASMR.class);
         startActivity(intent);
     }

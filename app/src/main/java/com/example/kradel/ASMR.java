@@ -6,19 +6,20 @@ import android.os.Bundle;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
+// Ignore the class name, its used for all web views via url
 public class ASMR extends AppCompatActivity {
-    WebView webVASMR;
+    WebView weB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_s_m_r);
 
-        String asmrPath = "https://www.youtube.com/watch?v=O830yXVvxiM&list=PL6OBhoc6fvu0PFlEtJzlS2XJV9GQO7iKr&ab_channel=pokiASMR";
+        String Path = ((MyApplication) this.getApplication()).getUrl();
 
-        webVASMR = findViewById(R.id.webASMR);
-        webVASMR.getSettings().setJavaScriptEnabled(true);
-        webVASMR.setWebChromeClient(new WebChromeClient());
-        webVASMR.loadUrl(asmrPath);
+        weB = findViewById(R.id.WebView);
+        weB.getSettings().setJavaScriptEnabled(true);
+        weB.setWebChromeClient(new WebChromeClient());
+        weB.loadUrl(Path);
     }
 }
