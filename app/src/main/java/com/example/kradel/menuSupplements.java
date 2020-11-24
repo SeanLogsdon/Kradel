@@ -14,7 +14,7 @@ public class menuSupplements extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_a_s_m_r);
+        setContentView(R.layout.activity_menu_supplements);
 
         ytSupplements = (Button) findViewById(R.id.ytSupplements);
         ytSupplements.setOnClickListener(new View.OnClickListener() {
@@ -26,7 +26,7 @@ public class menuSupplements extends AppCompatActivity {
     }
 
     public void openActivitySupplements() {
-        ((MyApplication) this.getApplication()).setUrl("https://health.gov/myhealthfinder/topics/everyday-healthy-living/mental-health-and-relationships/get-enough-sleep");
+        ((MyApplication) this.getApplication()).setUrl("https://www.webmd.com/sleep-disorders/ss/slideshow-natural-sleep-remedies");
         Intent intent = new Intent(this, ASMR.class);
         startActivity(intent);
     }

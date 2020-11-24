@@ -18,7 +18,7 @@
         android:text="What does the US goverment say about sleep?" />
 
     <Button
-        android:id="@+id/butUSDH"
+        android:id="@+id/buttonUSDH"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

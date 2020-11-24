@@ -13,9 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_menu_a_s_m_r);
+            setContentView(R.layout.activity_menu_breath);
 
-            ytBreath = (Button) findViewById(R.id.ytASMR);
+            ytBreath = (Button) findViewById(R.id.ytBreath);
             ytBreath.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
