@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">Kradel</string>
-    <string name="botText">Kradel</string>
-    <string name="url"> </string>
+    <string name="botText">Kradel V0.1</string>
+    <string name="titleASMR">Tingles, in your brain??</string>
+    <string name="titleBreath"> </string>
+    <string name="titleDrinks"> </string>
+    <string name="titleSupplements"> </string>
+    <string name="titleSounds"> </string>
+    <string name="titleUSDH"> </string>
+    <string name="textASMR">ASMR is an interesting one, meaning Autonomous sensory meridian response. Gaining popularity in recent times due to how easy the content is to make. This type of content can help relax you during sleep as you listen to the different noises.</string>
+    <string name="textBreath"> </string>
+    <string name="textDrinks"> </string>
+    <string name="textSupplements"> </string>
+    <string name="textSounds"> </string>
+    <string name="textUSDH"> </string>
+    <string name="buttox">To Link</string>
 </resources>
