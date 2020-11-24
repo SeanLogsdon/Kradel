@@ -3,15 +3,30 @@
     <string name="botText">Kradel V0.1</string>
     <string name="titleASMR">Tingles, in your brain??</string>
     <string name="titleBreath">Contol breathing, control sleeping. </string>
-    <string name="titleDrinks">Hydrate to by 8. </string>
+    <string name="titleDrinks">Hydrate by 8. </string>
     <string name="titleSupplements">Need a boost? </string>
     <string name="titleSounds">Drift away. </string>
     <string name="titleUSDH">United States Government Website. </string>
-    <string name="textASMR">ASMR is an interesting one, meaning Autonomous sensory meridian response. Gaining popularity in recent times due to how easy the content is to make. This type of content can help relax you during sleep as you listen to the different noises.</string>
-    <string name="textBreath">a </string>
-    <string name="textDrinks">a </string>
-    <string name="textSupplements">a </string>
-    <string name="textSounds">a </string>
-    <string name="textUSDH">a </string>
-    <string name="buttox">To Link</string>
+    <string name="textASMR">ASMR is an interesting one! ASMR stands for: Autonomous sensory meridian response. This type of content can help relax you during sleep as the sounds are usually
+        very high quality yet soft. It allows one to focus on the sounds of the video rather than the sleep itself. \n \nThere are many different types of ASMR content, especially on Youtube. Personally just
+        the normal everyday sounds have the most effect. \n\n\nTake a look (and purchase good earphones)!
+    </string>
+    <string name="textBreath">Breathing controls your heartrate, which controls the blood to your muscles. If you\'re able to focus and find a technique you like the best your sleep
+    will greatly improve. \n\nGenerally these techniques are based on two principles. Either some type of count like: 4-8-7 (meaning to inhale for 4 seconds, hold breath for 8 seconds, than exhaling
+        for 7 seconds) OR by some type of rythym. For instance \"Jeeeeeeeeeeeeeeeeeeeeeeeee suuuuuuuuuuuuuuuuuuuuuuuuuuus\" while breathing in and out respectively works pretty well for me.
+    </string>
+    <string name="textDrinks">Your body uses A LOT of water during the eight or so hours you are asleep. It is important to hydrate significantly a good amount of time before going to
+    bed in order to not get dehydrated mid-sleep. However drinks other than water may also help in your sleep. Mostly tea and warm milk are recommended as certain chemicals help your body wind
+        down. \n\nJust don\'t drink too much directly before bed or you will have to get up and pee :/
+    </string>
+    <string name="textSupplements">\n\n\n\nThis is a last resort for me. Only in the event that I am sick or am super duper struggling would I consider medication. However the term of supplements
+    includes a bunch of stuff. I encourage you to look for some on your own but the link below is good. </string>
+    <string name="textSounds">Searching \"Sounds to sleep to\" or \n"Peaceful background noise\n goes a long way. Very reminisent of my youth in the car sleeping as the rain falls and the radio falls. If you can find a genre that really strikes you your sleep will improve tenfold.
+        \nJust as with ASMR, good headphones that wont hurt your ears overnight is a must. I recommend finding a 10 hour version/loop and making sure it was a considerable amount of views. Im sure people are dying to bass boost you at 3:am.
+    </string>
+    <string name="textUSDH">Wanted to include this as the rest of this is mostly my opinion and basic research and speculation. May later get into actual studies however now you can look at this
+    offical US website speaking sleeping and some tips/tricks.
+        \n\nLots of good looks to go off this website with studies to back it up!
+    </string>
+    <string name="buttox">More</string>
 </resources>

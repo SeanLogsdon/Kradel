@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ASMR">
+    tools:context=".ASMR"
+    android:background="@drawable/appback">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ee"
+        />
 
     <WebView
         android:id="@+id/WebView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

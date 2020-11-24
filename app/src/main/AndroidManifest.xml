@@ -18,6 +18,7 @@
         <activity android:name=".menuDrink" />
         <activity android:name=".menuSounds" />
         <activity android:name=".menuSupplements" />
+        <activity android:name=".menuUSDH" />
         <activity android:name=".ASMR" />
         <activity android:name=".LaunchScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
