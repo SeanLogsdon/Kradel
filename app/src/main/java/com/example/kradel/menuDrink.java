@@ -14,9 +14,9 @@ public class menuDrink extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_a_s_m_r);
+        setContentView(R.layout.activity_menu_drink);
 
-        // ytDrink = (Button) findViewById(R.id.ytBreath);
+        ytDrink = (Button) findViewById(R.id.ytDrink);
         ytDrink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,7 +26,7 @@ public class menuDrink extends AppCompatActivity {
     }
 
     public void openActivityBreath() {
-        ((MyApplication) this.getApplication()).setUrl("https://www.youtube.com/results?search_query=asmr+for+sleeping");
+        ((MyApplication) this.getApplication()).setUrl("https://www.healthline.com/nutrition/drinks-that-help-you-sleep");
         Intent intent = new Intent(this, ASMR.class);
         startActivity(intent);
     }

@@ -14,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="-1dp"
         android:text="@string/titleASMR"
-        android:textSize="35"/>
+        android:textSize="35sp"/>
 
     <TextView
         android:id="@+id/titleASMR"
@@ -28,7 +28,7 @@
         android:layout_marginTop="28dp"
         android:layout_marginBottom="33dp"
         android:text="@string/textASMR"
-        android:textSize="25"
+        android:textSize="25sp"
         android:textColor="#FFFFFF"
         />
 

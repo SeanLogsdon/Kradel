@@ -11,12 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
         private Button ytBreath;
 
 
-        @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_menu_a_s_m_r);
 
-           // ytBreath = (Button) findViewById(R.id.ytBreath);
+            ytBreath = (Button) findViewById(R.id.ytASMR);
             ytBreath.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -26,7 +25,7 @@ import androidx.appcompat.app.AppCompatActivity;
         }
 
         public void openActivityBreath() {
-            ((MyApplication) this.getApplication()).setUrl("https://www.youtube.com/results?search_query=asmr+for+sleeping");
+            ((MyApplication) this.getApplication()).setUrl("https://www.youtube.com/watch?v=RHpTR2wRc8c");
             Intent intent = new Intent(this, ASMR.class);
             startActivity(intent);
         }

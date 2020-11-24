@@ -8,25 +8,25 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class menuSounds extends AppCompatActivity {
-    private Button ytBreath;
+    private Button ytSounds;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_a_s_m_r);
+        setContentView(R.layout.activity_menu_sounds);
 
-        // ytBreath = (Button) findViewById(R.id.ytBreath);
-        ytBreath.setOnClickListener(new View.OnClickListener() {
+        ytSounds = (Button) findViewById(R.id.ytSounds);
+        ytSounds.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openActivityBreath();
+                openActivitySounds();
             }
         });
     }
 
-    public void openActivityBreath() {
-        ((MyApplication) this.getApplication()).setUrl("https://www.youtube.com/results?search_query=asmr+for+sleeping");
+    public void openActivitySounds() {
+        ((MyApplication) this.getApplication()).setUrl("https://www.youtube.com/watch?v=8Ad-YfhbIvY");
         Intent intent = new Intent(this, ASMR.class);
         startActivity(intent);
     }

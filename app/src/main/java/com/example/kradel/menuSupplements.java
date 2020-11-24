@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class menuSupplements extends AppCompatActivity {
-    private Button ytBreath;
+    private Button ytSupplements;
 
 
     @Override
@@ -16,17 +16,17 @@ public class menuSupplements extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_a_s_m_r);
 
-        // ytBreath = (Button) findViewById(R.id.ytBreath);
-        ytBreath.setOnClickListener(new View.OnClickListener() {
+        ytSupplements = (Button) findViewById(R.id.ytSupplements);
+        ytSupplements.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openActivityBreath();
+                openActivitySupplements();
             }
         });
     }
 
-    public void openActivityBreath() {
-        ((MyApplication) this.getApplication()).setUrl("https://www.youtube.com/results?search_query=asmr+for+sleeping");
+    public void openActivitySupplements() {
+        ((MyApplication) this.getApplication()).setUrl("https://health.gov/myhealthfinder/topics/everyday-healthy-living/mental-health-and-relationships/get-enough-sleep");
         Intent intent = new Intent(this, ASMR.class);
         startActivity(intent);
     }

@@ -14,18 +14,18 @@ public class menuUSDH extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_a_s_m_r);
+        setContentView(R.layout.activity_menu_usdh);
 
-        // ytUSDH = (Button) findViewById(R.id.ytBreath);
+        ytUSDH = (Button) findViewById(R.id.ytUSDH);
         ytUSDH.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openActivityBreath();
+                openActivityUSDH();
             }
         });
     }
 
-    public void openActivityBreath() {
+    public void openActivityUSDH() {
         ((MyApplication) this.getApplication()).setUrl("https://health.gov/myhealthfinder/topics/everyday-healthy-living/mental-health-and-relationships/get-enough-sleep#panel-8");
         Intent intent = new Intent(this, ASMR.class);
         startActivity(intent);
