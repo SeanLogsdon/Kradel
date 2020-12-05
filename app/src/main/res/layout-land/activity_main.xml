@@ -32,16 +32,14 @@
         android:textColor="#FFFFFF" />
 
     <ImageView
-        android:layout_width="364dp"
-        android:layout_height="288dp"
-        android:layout_above="@+id/buttonBreath"
-        android:layout_below="@+id/buttonUSDH"
+        android:layout_width="474dp"
+        android:layout_height="187dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-85dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="89dp"
+        android:layout_toStartOf="@+id/buttonUSDH"
         android:src="@drawable/shleep" />
 
     <TextView
@@ -75,23 +73,21 @@
         android:id="@+id/buttonBreath"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="129dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="206dp"
+        android:layout_marginEnd="263dp"
         android:background="@drawable/buttonback"
         android:text="@string/butBreath"
         android:textColor="#e7a236" />
 
     <Button
         android:id="@+id/buttonSoothing"
-        android:layout_width="138dp"
+        android:layout_width="187dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="161dp"
+        android:layout_marginStart="432dp"
         android:layout_marginTop="229dp"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="57dp"
@@ -102,14 +98,14 @@
 
     <Button
         android:id="@+id/buttonSupplements"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="267dp"
+        android:layout_height="31dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="165dp"
         android:layout_marginTop="153dp"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="133dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="67dp"
         android:layout_toStartOf="@+id/buttonDrink"
         android:background="@drawable/buttonback"
         android:text="@string/butSupplements"
@@ -122,8 +118,8 @@
         android:layout_alignBottom="@+id/buttonBreath"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="155dp"
-        android:layout_marginEnd="62dp"
-        android:layout_marginBottom="-75dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="-39dp"
         android:background="@drawable/buttonback"
         android:text="@string/butDrinks"
         android:textColor="#e7a236" />
