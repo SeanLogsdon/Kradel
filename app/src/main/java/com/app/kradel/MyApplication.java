@@ -1,4 +1,4 @@
-package com.example.kradel;
+package com.app.kradel;
 
 import android.app.Application;
 

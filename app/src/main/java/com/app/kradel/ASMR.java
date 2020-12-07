@@ -1,4 +1,4 @@
-package com.example.kradel;
+package com.app.kradel;
 
 import androidx.appcompat.app.AppCompatActivity;
 

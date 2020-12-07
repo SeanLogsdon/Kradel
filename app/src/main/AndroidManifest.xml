@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kradel">
+    package="com.app.kradel">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.app.kradel.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".menuASMR" />
-        <activity android:name=".menuBreath" />
-        <activity android:name=".menuDrink" />
-        <activity android:name=".menuSounds" />
-        <activity android:name=".menuSupplements" />
-        <activity android:name=".menuUSDH" />
-        <activity android:name=".ASMR" />
-        <activity android:name=".LaunchScreen"
+        <activity android:name="com.app.kradel.MainActivity" />
+        <activity android:name="com.app.kradel.menuASMR" />
+        <activity android:name="com.app.kradel.menuBreath" />
+        <activity android:name="com.app.kradel.menuDrink" />
+        <activity android:name="com.app.kradel.menuSounds" />
+        <activity android:name="com.app.kradel.menuSupplements" />
+        <activity android:name="com.app.kradel.menuUSDH" />
+        <activity android:name="com.app.kradel.ASMR" />
+        <activity android:name="com.app.kradel.LaunchScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
